@@ -1,0 +1,31 @@
+body {
+  font-family: serif;
+  background-color: #e19c2f;
+  margin: 0;
+  padding: 0;
+}
+nav,
+footer {
+  padding: 20px 0 20px 0;
+  width: 100%;
+  background-color: #e18224;
+}
+.banner {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+main {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+small,
+.home-link {
+  padding-left: 5px;
+}
