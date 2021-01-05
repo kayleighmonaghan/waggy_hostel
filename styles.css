@@ -22,10 +22,13 @@ main {
   background-color: white;
 }
 footer {
-  position: absolute;
   bottom: 0;
 }
 small,
 .home-link {
   padding-left: 5px;
+}
+table {
+  text-align: left;
+  empty-cells: show;
 }
