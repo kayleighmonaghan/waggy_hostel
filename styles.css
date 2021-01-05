@@ -1,34 +1,56 @@
 body {
-  font-family: serif;
-  background-color: #e19c2f;
+  font-family: sans-serif;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
-nav,
+main {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 20px 10px 20px;
+}
+.nav-bar,
 footer {
   padding: 20px 0 20px 0;
   width: 100%;
-  background-color: #e18224;
+  background-color: white;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #e18224;
+}
+a.visited {
+  color: #e19c2f;
+}
+nav a,
+small {
+  padding-left: 30px;
+}
+table {
+  text-align: left;
+  empty-cells: show;
+  margin-bottom: 16px;
+}
+footer {
+  bottom: 0;
+}
+.homepage-img,
+.contact-img,
+.about-img {
+  width: 49%;
 }
 .banner {
   width: 100%;
   padding: 0;
   margin: 0;
 }
-main {
+th {
+  padding-right: 40px;
+}
+.footer-img {
+  width: 100%;
+  padding: 0;
   margin: 0 auto;
-  width: 80%;
-  padding: 10px 20px 10px 20px;
-  background-color: white;
-}
-footer {
-  bottom: 0;
-}
-small,
-.home-link {
-  padding-left: 5px;
-}
-table {
-  text-align: left;
-  empty-cells: show;
+  transform: scaleX(-1);
 }
